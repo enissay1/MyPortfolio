@@ -52,9 +52,11 @@ header {
     font-size: 1.2em;
     font-weight: 600;
 }
+
 .navigation div.menu ul{
    display: flex;
     list-style: none;
+    
 }
 
 section {
@@ -272,8 +274,9 @@ section {
         cursor: pointer;
                }
    #menu{
-        display: none;
-        transition: 0.3s ease;
+        transform:scale(1,0); 
+        transform-origin: top;
+        transition: transform 400ms ease-in-out;
         padding-left: 10px;
                 }          
     header .menu{
@@ -282,9 +285,10 @@ section {
          top: 100%;
          left: 50%;
          background-color: #f0f0f0;
-         width: 100%;
+         width: 90%;
 
-                 }
+        
+                         }
 
     .navigation div.menu ul{
         flex-direction: column;
