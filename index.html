@@ -11,7 +11,6 @@
         integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="stars.css">
-
     <title></title>
 </head>
 
@@ -20,11 +19,17 @@
     <header>
         <a href="#front" class="logo">Yassine Ezzahr</a>
         <nav class="navigation">
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#projects">Projets</a>
-            <a href="#starskill">Compétences</a>
-            <a href="#contact">Contact</a>
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger" id="humb">&#9776;</label>
+            <div class="menu" id="menu">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#starskill">Compétences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -229,6 +234,7 @@
 
 
     <footer class="footer">
+
         <p class="footer-title">Copyrights @ <span>YASSINE EZZAHR</span></p>
         <!-- <div class="social-icons">
             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -237,6 +243,7 @@
             <a href="#"><i class="fab fa-youtube"></i></a>
         </div> -->
     </footer>
+    <script type=text/javascript src="bannier.js"></script>
 
 </body>
 
