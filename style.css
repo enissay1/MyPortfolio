@@ -275,7 +275,7 @@ section {
                }
    #menu{
         transform:scale(1,0); 
-        transform-origin: top;
+        transform-origin: to-top;
         transition: transform 400ms ease-in-out;
         padding-left: 10px;
                 }          
