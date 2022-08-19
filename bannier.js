@@ -10,3 +10,9 @@ menu.style.transform = "scale(1,1)";
 
 
 }})
+
+// $(document).ready(function(){
+//     $("#humb").click(function(){
+//       $("#menu").slideToggle("slow");
+//     });
+//   });
