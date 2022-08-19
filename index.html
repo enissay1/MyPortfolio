@@ -79,7 +79,26 @@
                 </div>
             </div>
         </div>
+        <div class="title msgcontact">
+            <div id="container">
+                <span id="text1"></span>
+                <span id="text2"></span>
+            </div>
+            
+            <svg id="filters">
+                <defs>
+                    <filter id="threshold">
+                        <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                              0 1 0 0 0
+                              0 0 1 0 0
+                              0 0 0 255 -140" />
+                    </filter>
+                </defs>
+            </svg>
+        </div>
+        
     </section>
+
     <section class="cards" id="services">
         <h2 class="title">Services</h2>
         <div class="content">
@@ -237,7 +256,7 @@
             <a href="#"><i class="fab fa-youtube"></i></a>
         </div> -->
     </footer>
-    
+
     <script type=text/javascript src="bannier.js"></script>
 
 
